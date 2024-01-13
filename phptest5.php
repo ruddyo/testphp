@@ -1,1 +1,1 @@
-<?PHP echo hostname; ?>
+<?PHP echo php_uname('n'); ?>
